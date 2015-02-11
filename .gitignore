@@ -1,0 +1,82 @@
+*~
+*.autosave
+*.a
+*.core
+*.moc
+*.o
+*.obj
+*.orig
+*.rej
+*.so
+*.so.*
+*_pch.h.cpp
+*_resource.rc
+*.qm
+.#*
+*.*#
+core
+!core/
+tags
+.DS_Store
+*.debug
+Makefile*
+*.prl
+*.app
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Thumbs.db
+*.res
+*.rc
+*.embed.manifest
+/.qmake.cache
+/.qmake.stash
+
+# qtcreator generated files
+*.pro.user*
+*.creator.user*
+*.qbs.user*
+*.qmlproject.user*
+*.json
+/src/app/Info.plist
+app_version.h
+phony.c
+
+# xemacs temporary files
+*.flc
+
+# Vim temporary files
+.*.swp
+
+# gcov files
+*.gcov
+*.gcda
+*.gcno
+
+# MinGW generated files
+*.Debug
+*.Release
+
+# Python byte code
+*.pyc
+
+# Directories to ignore
+# ---------------------
+
+debug/
+release/
+/*-debug/
+/*-release/
+/*-debug/
+/*-release/
+.moc/
+.obj/
+.pch/
+.rcc/
+.uic/
+
+# Binaries
+# --------
+*.dll
+*.exe
+
