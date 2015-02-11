@@ -4,3 +4,4 @@ int main(int argc, char *argv[])
     return 0;
 }
 
+class Base {} // Leads to fix-it for "error: expected ';' after class"
