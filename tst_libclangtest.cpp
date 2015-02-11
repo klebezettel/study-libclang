@@ -1,6 +1,8 @@
 #include <QString>
 #include <QtTest>
 
+#include <clang-c/Index.h>
+
 class LibClangTest : public QObject
 {
     Q_OBJECT
@@ -20,6 +22,8 @@ LibClangTest::LibClangTest()
 
 void LibClangTest::initTestCase()
 {
+    clang_toggleCrashRecovery(1);
+    clang_enableStackTraces();
 }
 
 void LibClangTest::cleanupTestCase()
