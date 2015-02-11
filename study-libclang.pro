@@ -16,5 +16,9 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-SOURCES += tst_libclangtest.cpp
+SOURCES += tst_libclangtest.cpp \
+    clangutils.cpp
 DEFINES += SRCDIR=\\\"$$PWD/\\\"
+
+HEADERS += \
+    clangutils.h
